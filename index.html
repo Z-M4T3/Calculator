@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="./style/index.css">
+</head>
+<body>
+    <div id="fullcalc">
+        <div id="calc-container">
+            
+            <span id="display-calc">
+                <p id="calc-nums"></p>
+            </span>
+            
+            <div>
+                <button class="control-btn" onclick="addCalc('+')">+</button>
+                <button class="control-btn" onclick="addCalc('-')">-</button>
+                <button class="control-btn" onclick="addCalc('*')">*</button>
+                <button class="control-btn" onclick="addCalc('/')">/</button>
+            </div>
+            <div>
+                <button onclick="addCalc('7')">7</button>
+                <button onclick="addCalc('4')">4</button>
+                <button onclick="addCalc('1')">1</button>
+                <button class="control-btn" onclick="addCalc('.')">.</button>
+        
+            </div>
+            <div>
+                <button onclick="addCalc('8')">8</button>
+                <button onclick="addCalc('5')">5</button>
+                <button onclick="addCalc('2')">2</button>
+                <button onclick="addCalc('0')">0</button>
+            </div>
+            <div>
+                <button onclick="addCalc('9')">9</button>
+                <button onclick="addCalc('6')">6</button>
+                <button onclick="addCalc('3')">3</button>
+                <button class="control-btn" onclick="calc()">=</button>
+            </div>
+            <div>
+                <button class="control-btn" onclick="clearCalc()">C</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="./scripts/index.js"></script>
+</body>
+</html>
